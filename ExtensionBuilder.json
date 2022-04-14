@@ -1,0 +1,40 @@
+{
+    "modules": [],
+    "properties": {
+        "backendModules": [],
+        "description": "Adds button to jump to the top",
+        "emConf": {
+            "category": "plugin",
+            "custom_category": "",
+            "dependsOn": "typo3 => 10.4.0-10.4.99\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "skipGenerateDocumentationTemplate": false,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "10.4.0-10.4.99",
+            "version": "1.0.0"
+        },
+        "extensionKey": "datamints_top",
+        "name": "datamints Top",
+        "originalExtensionKey": "",
+        "originalVendorName": "",
+        "persons": [
+            {
+                "company": "datamints GmbH",
+                "email": "m.weisgerber@datamints.com",
+                "name": "Mark Weisgerber",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [],
+        "vendorName": "Datamints"
+    },
+    "wires": [],
+    "storagePath": "\/srv\/www\/weisgerber\/muenchner-kultur-gmbh-733\/typo3-muenchner-website\/src\/typo3conf\/ext\/",
+    "log": {
+        "last_modified": "2022-04-14 11:07",
+        "extension_builder_version": "9.11.0",
+        "be_user": "Mark Weisgerber (27)"
+    }
+}

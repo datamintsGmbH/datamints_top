@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="EXT:datamints_top/Resources/Private/Language/locallang" date="2022-04-1412:10:45Z" product-name="datamints_top" target-language="de">
+    <header>
+      <!--This translation file was generated automatically by the "datamints_locallang_builder" extension. Please note that changes to this file can be lost the next time someone triggers an export in the TYPO3 Backend-module-->
+    </header>
+    <body>
+      <trans-unit id="tx_datamintstop.btn-text" resname="tx_datamintstop.btn-text" approved="no">
+        <!--button text-->
+        <source>Back to Top</source>
+        <target>Nach oben springen</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
