@@ -1,28 +1,37 @@
 {
-    "name": "datamints/datamints-top",
-    "type": "typo3-cms-extension",
-    "description": "Adds button to jump to the top",
-    "authors": [
-        {
-            "name": "Mark Weisgerber",
-            "role": "Developer"
-        }
-    ],
-    "require": {
-        "typo3/cms-core": "^10.4"
-    },
-    "autoload": {
-        "psr-4": {
-            "Datamints\\DatamintsTop\\": "Classes"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Datamints\\DatamintsTop\\Tests\\": "Tests"
-        }
-    },
-    "replace": {
-        "datamints/datamints-top": "self.version",
-        "typo3-ter/datamints-top": "self.version"
-    }
+	"name": "datamints/top",
+	"type": "typo3-cms-extension",
+	"description": "Adds a button to jump to the top of a page",
+	"keywords": [
+		"top",
+		"totop",
+		"jump",
+		"scroll",
+		"beginning"
+	],
+	"authors": [
+		{
+			"name": "Mark Weisgerber, datamints GmbH",
+			"email": "m.weisgerber@datamints.com",
+			"role": "Developer",
+			"homepage": "https://www.datamints.com/"
+		}
+	],
+	"license": "GPL-2.0-or-later",
+	"require": {
+		"typo3/cms-core": "^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0 || ^11.0.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Datamints\\DatamintsTop\\": "Classes"
+		}
+	},
+	"replace": {
+		"typo3-ter/datamints-top": "self.version"
+	},
+	"extra": {
+		"typo3/cms": {
+			"extension-key": "datamints_top"
+		}
+	}
 }

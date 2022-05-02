@@ -12,17 +12,17 @@
 
 $EM_CONF[$_EXTKEY] = [
     'title' => 'datamints Top',
-    'description' => 'Adds a button to jump to the top',
+    'description' => 'Adds a button to jump to the top of a page',
     'category' => 'misc',
     'author' => 'Mark Weisgerber',
     'author_email' => 'm.weisgerber@datamints.com',
     'state' => 'stable',
     'createDirs' => '',
     'clearCacheOnLoad' => 1,
-    'version' => '1.0.0',
+    'version' => '1.0.1',
     'constraints' => [
         'depends' => [
-            'typo3' => '10.4.0-11.5.99',
+            'typo3' => '7.0.0-11.5.99',
         ],
         'conflicts' => [],
         'suggests' => [],

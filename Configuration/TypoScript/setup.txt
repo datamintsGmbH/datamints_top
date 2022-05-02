@@ -1,0 +1,2 @@
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:datamints_top/Configuration/TypoScript/setup.typoscript">
+// this file exists to grant backwards compatability for TYPO3 7.x
