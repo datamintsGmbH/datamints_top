@@ -1,12 +1,13 @@
-.to-top{
-    position:fixed;
-    right:2rem;
-    bottom:2rem;
-    z-index:1000;
+.btn.to-top {
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    z-index: 1000;
+    cursor: pointer;
 }
 
 @media speech {
     .to-top {
-        display:none;
+        display: none;
     }
 }
