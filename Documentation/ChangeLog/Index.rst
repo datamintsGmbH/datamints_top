@@ -7,7 +7,7 @@ Change log
 ==========
 
 
-Version 1.0.1
+Version 1.0.2
 -------------
 
 [FEATURE] Initial release for TER
