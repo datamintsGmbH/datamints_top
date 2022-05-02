@@ -1,14 +1,23 @@
-page{
+page {
   90423423 = FLUIDTEMPLATE
-  90423423{
+  90423423 {
     templateName = ToTop
     templateRootPaths.1 = EXT:datamints_top/Resources/Private/Templates
-    templateRootPaths.2 = {plugin.tx_datamintstop.view.templateRootPath}
+    templateRootPaths.2 = {$plugin.tx_datamintstop.view.templateRootPath}
+    variables {
+      buttonBackgroundColor = TEXT
+      buttonBackgroundColor.value = {$plugin.tx_datamintstop.settings.buttonBackgroundColor}
+      buttonIconColor = TEXT
+      buttonIconColor.value = {$plugin.tx_datamintstop.settings.buttonIconColor}
+
+    }
   }
-  includeCSS{
+
+  includeCSS {
     datamints_top = EXT:datamints_top/Resources/Public/Styles/datamints_top.css
   }
-  includeJS{
+
+  includeJS {
     datamints_top = EXT:datamints_top/Resources/Public/Scripts/datamints_top.js
   }
 }
