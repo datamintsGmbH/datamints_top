@@ -1,0 +1,17 @@
+categories:
+  basic: ~
+  colors: ~
+
+settings:
+  plugin.tx_darfichmit.ajaxHtmlTypeNum:
+    default: '349242321'
+    type: string
+    category: basic
+  plugin.tx_datamintstop.settings.buttonBackgroundColor:
+    default: '#ffffff'
+    type: color
+    category: colors
+  plugin.tx_datamintstop.settings.buttonIconColor:
+    default: '#000000'
+    type: color
+    category: colors

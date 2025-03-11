@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file source-language="en" datatype="plaintext" original="EXT:datamints_top/Configuration/Sets/Full/labels.xlf" date="2024-09-05T08:00:00Z" product-name="datamints_top">
+		<header/>
+		<body>
+			<trans-unit id="label">
+				<source>datamints Top</source>
+			</trans-unit>
+			<trans-unit id="categories.basic">
+				<source>Basic</source>
+			</trans-unit>
+			<trans-unit id="categories.colors">
+				<source>Colors</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
